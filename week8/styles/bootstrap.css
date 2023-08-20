@@ -1,0 +1,35 @@
+body{
+    gap:10px;
+  }
+    .container-fluid{
+        height: 100px;
+        background-color: rgb(15, 15, 54);
+        color: white;
+    }
+    .nav{
+      margin-right: 19%;
+    }
+    .active{
+        color: white;
+    }
+    .disabled{
+        color: rgb(232, 226, 226);
+    }
+    h1{
+      margin-left: 13%;
+    }
+    h2{
+        font-size: 50pt;
+    }
+    .modal-content{
+        background-color: rgba(145, 206, 208, 0.3);
+        height: 34vh;
+    }
+
+    .navbar-collapse{
+        font-size: 20pt;
+    }
+
+    .modal-body{
+        height: 40%;
+    }

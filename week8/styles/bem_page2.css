@@ -1,0 +1,54 @@
+.container__header{
+    display: flex;
+    flex-direction: row;
+    width: 100vw;
+    margin-left: 10%
+  }
+  .header__logo{
+    position: absolute;
+    height: 30px;
+    width: 50px;
+  }
+  .header__title{
+    margin-left: 23%;
+    font-size: 15pt;
+    font-weight: bolder;
+  }
+  .header__button{
+    display: flex;
+    /* justify-content: end; */
+    margin-left: 68%;
+    justify-self: flex-end;
+    position: absolute;
+    border-radius: 25px;
+    width: 115px;
+    height: 38px;
+    font-size: 14pt;
+  }
+  img{
+    width: 18rem;
+  }
+  .popup{
+    margin-top: 2%;
+  }
+  .popup__title{
+    margin-bottom: 5%;
+  }
+  .popup__btn{
+    border-radius: 25px;
+  }
+  .popup__modal-title{
+    font-weight: bolder;
+  }
+  .popup__modal-dialog{
+    background-color: coral;
+    color: azure;
+    padding: 10%;
+  }
+  .footer__nav{
+    display: flex;
+    margin: 30px;
+  }
+  .footer__link{
+    margin-right: 10%;
+  }

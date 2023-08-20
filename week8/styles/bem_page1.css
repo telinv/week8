@@ -1,0 +1,61 @@
+body{
+    margin: 100px;
+  }
+  .container__header{
+    display: flex;
+    flex-direction: row;
+    width: 100vw;
+  }
+  .header__logo{
+    position: absolute;
+    height: 30px;
+    width: 50px;
+  }
+  .header__title{
+    margin-left: 23%;
+    font-size: 15pt;
+    font-weight: bolder;
+  }
+  .header__button{
+    display: flex;
+    /* justify-content: end; */
+    margin-left: 68%;
+    justify-self: flex-end;
+    position: absolute;
+    border-radius: 25px;
+    width: 115px;
+    height: 38px;
+    font-size: 14pt;
+    font-weight: bolder;
+  }
+  img{
+    height: 640px;
+  }
+  .popup{
+    margin-top: 2%;
+  }
+  .popup__title{
+    font-size: 3rem;
+    font-weight: bolder;
+  }
+  .popup__text{
+    font-size: medium;
+    margin-top: 3%;
+  }
+  .popup__button{
+    border-radius: 50px;
+    width: 270px;
+    height: 84px;
+    top: 558px;
+    left: 116px;
+    font-size: 25pt;
+    margin-top: 10%;
+    
+  }
+  .footer__nav{
+    display: flex;
+    margin: 30px;
+  }
+  .footer__link{
+    margin-right: 10%;
+  }
